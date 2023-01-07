@@ -1,0 +1,19 @@
+# @format
+---
+# See https://github.com/openfoodfoundation/ofn-install/wiki/Setup for more info
+checkout_zone: Asia
+country_code: JO
+currency: JOD
+locale: en_GB
+available_locales: en_GB, ar
+language: en_GB.UTF-8
+language_packages:
+  - language-pack-en-base
+l10n_repo: https://github.com/rafatahmed/l10n_jo
+timezone: Amman
+
+developer_email: nfo@flaha.org
+
+users_sysadmin:
+  - "{{ core_devs }}"
+  - rafat
